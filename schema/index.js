@@ -32,7 +32,7 @@ const typeDefs = gql`
     image: String
     category: String!
     slug: String!
-    getAnimalsByCategory: [Animal!]!
+    animals: [Animal!]!
   }
   type Mutation {
     addAnimal(data: AnimalInput!): Animal
